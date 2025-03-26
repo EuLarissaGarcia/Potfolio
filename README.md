@@ -70,7 +70,7 @@ Este repositório contém o código-fonte de um site de portfólio pessoal, dese
 Clone este repositório:
 
 ```sh
-git clone https://eularissagarcia.github.io/Portfolio/
+[git clone https://eularissagarcia.github.io/Portfolio/](https://eularissagarcia.github.io/Potfolio/)
 ```
 
 Abra o arquivo `index.html` em qualquer navegador de internet.
