@@ -329,7 +329,7 @@ section{
 
 
 .about .image-6 {
-    background: url('/assets/Window.svg');
+    background: url('./assets/Window.svg');
     object-fit: cover; 
     flex: 1;
     display: flex;
@@ -425,16 +425,16 @@ section{
 }
 
 /* Adicionando as imagens de fundo para cada tecnologia */
-.skill-card:nth-child(1) { background-image: url('/assets/Icons/figma.png'); }
-.skill-card:nth-child(2) { background-image: url('/assets/Icons/canva.png'); }
-.skill-card:nth-child(3) { background-image: url('/assets/Icons/office.png'); }
-.skill-card:nth-child(4) { background-image: url('/assets/Icons/html.png'); }
-.skill-card:nth-child(5) { background-image: url('/assets/Icons/css.png'); }
-.skill-card:nth-child(6) { background-image: url('/assets/Icons/javascript.png'); }
-.skill-card:nth-child(7) { background-image: url('/assets/Icons/mysql.png'); }
-.skill-card:nth-child(8) { background-image: url('/assets/Icons/python.png'); }
-.skill-card:nth-child(9) { background-image: url('/assets/Icons/java.png'); }
-.skill-card:nth-child(10) { background-image: url('/assets/Icons/c.png'); }
+.skill-card:nth-child(1) { background-image: url('./assets/Icons/figma.png'); }
+.skill-card:nth-child(2) { background-image: url('./assets/Icons/canva.png'); }
+.skill-card:nth-child(3) { background-image: url('./assets/Icons/office.png'); }
+.skill-card:nth-child(4) { background-image: url('./assets/Icons/html.png'); }
+.skill-card:nth-child(5) { background-image: url('./assets/Icons/css.png'); }
+.skill-card:nth-child(6) { background-image: url('./assets/Icons/javascript.png'); }
+.skill-card:nth-child(7) { background-image: url('./assets/Icons/mysql.png'); }
+.skill-card:nth-child(8) { background-image: url('./assets/Icons/python.png'); }
+.skill-card:nth-child(9) { background-image: url('./assets/Icons/java.png'); }
+.skill-card:nth-child(10) { background-image: url('./assets/Icons/c.png'); }
 
 
 /* -==================== FORMATION ====================--> */
@@ -646,8 +646,8 @@ section{
 
 
 #projeto1, #projeto2, #projeto3, #projeto4, #projeto5, #projeto6 {
-    background-size: cover; /* A imagem ocupará toda a div */
-    background-position: center; /* A imagem será centralizada */
+    background-size: cover; 
+    background-position: center; 
     width: 50%;
     height: auto;    
     border-radius: 8px;
@@ -656,40 +656,40 @@ section{
 } 
 
 #projeto1 {
-    background-image: url('/assets/projects/project1.png');
+    background-image: url('./assets/projects/project1.png');
     width: 340px;
     height: 340px; 
     clip-path: inset(0.35% 0 0 0); 
 }
 
 #projeto2 {
-    background-image: url('/assets/projects/project2.png');
+    background-image: url('./assets/projects/project2.png');
     width: 340px;
     height: 340px; 
 }
 
 #projeto3 {
-    background-image: url('/assets/projects/project3.png');
+    background-image: url('./assets/projects/project3.png');
     width: 340px;
     height: 340px; 
 
 }
 
 #projeto4 {
-    background-image: url('/assets/projects/project4.png');
+    background-image: url('./assets/projects/project4.png');
     width: 340px;
     height: 340px; 
 
 }
 
 #projeto5 {
-    background-image: url('/assets/projects/project5.png');
+    background-image: url('./assets/projects/project5.png');
     width: 340px;
     height: 340px; 
 }
 
 #projeto6 {
-    background-image: url('/assets/projects/project6.png');
+    background-image: url('./assets/projects/project6.png');
     width: 340px;
     height: 340px; 
 }
